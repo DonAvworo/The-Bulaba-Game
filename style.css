@@ -119,11 +119,13 @@ text area  styling
 
 .text-container h1{
     font-size: 2rem;
+    color: #fff;
     margin: 20px;
 }
 
 .text-container p{
     font-size: 1rem;
+    color: #fff;
     margin: 20px;
 }
 
@@ -405,6 +407,14 @@ media query for responsive design
         border-radius: 5px;
         /* margin: 0 16px 16px 16px; */
         margin: 0px;
+    }
+
+    .text-container h1{
+        color : black;
+    }
+    
+    .text-container p{
+        color : black;
     }
 
     .btn p{
