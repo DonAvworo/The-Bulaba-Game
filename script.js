@@ -18,6 +18,7 @@ function randomFact() {
     let random = randomNum();
     document.getElementById("result").innerHTML = funFactsTinubu[random];
 
+    //loop through the array    
     for (let i = 0; i < funFactsTinubu.length; i++) {
         console.log(funFactsTinubu[i]);
     }
