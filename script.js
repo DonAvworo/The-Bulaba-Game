@@ -21,6 +21,12 @@ function randomFact() {
     //loop through the array    
     for (let i = 0; i < funFactsTinubu.length; i++) {
         console.log(funFactsTinubu[i]);
-    }
-    
+    } 
 }
+
+let imgTinubu = document.getElementById("img-tinubu");
+imgTinubu.addEventListener("click", function() {
+    // imgTinubu.style.display = "none"; //hide the image when clicked test purposes only
+    imgTinubu.style.opacity = ".3"; //hide the image when clicked
+    imgTinubu.style.transition = "opacity .5s ease-in-out"; //add transition effect to the image
+});
